@@ -10,6 +10,8 @@ public class Demo {
     public static void main(String a[]) {
         // Calculator calc ; // here you are only creating a reference and not a object
         Calculator calc = new Calculator(); // new object created using new and constructor
+        // the new keyword will consume space for calculator
+        // how much space will be determined by constructor
         calc.add();
     }
 }
