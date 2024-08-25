@@ -4,7 +4,15 @@ public class Data {
         double d_marks = 6.5; //double
         // byte b = 129 // error cannnot convert int to byte 
         byte b = 127;
-        System.out.println(b);
+        short sh = 558;
+        // literals 
+        int num1 = 0b1101;
+        int num2 = 0x7E;
+        int num3 = 1_00_00_000;
+        // System.out.println(b); // prints 127
+        // System.out.println(num1); // prints 13
+        // System.out.println(num2); // prints 126
+        // System.out.println(num3); // prints 10000000
     }
 }
 
